@@ -204,7 +204,6 @@ Contribuidores são reconhecidos:
 ### 💬 Canais de Comunicação
 - **Issues**: Discussões técnicas
 - **Discussions**: Ideias e perguntas gerais
-- **Email**: contato@saviocodes.com (questões privadas)
 
 ### 🕐 Tempo de Resposta
 - **Issues**: 24-48 horas
