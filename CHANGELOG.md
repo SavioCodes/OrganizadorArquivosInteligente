@@ -113,7 +113,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 | Versão | Data | Linhas de Código | Funcionalidades | Bugs Corrigidos |
 |--------|------|------------------|-----------------|------------------|
-| 2.0.0  | 2025-01-15 | ~1,200 | 25+ | 15 |
+| 2.0.0  | 2025-01-15 | ~1,034 | 25+ | 15 |
 | 1.0.0  | 2024-03-15 | ~600   | 12  | -  |
 
 ---
