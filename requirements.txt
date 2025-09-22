@@ -1,39 +1,105 @@
-# Organizador de Arquivos Inteligente - Dependências
-# Autor: SavioCodes - https://github.com/SavioCodes
+# Organizador de Arquivos Inteligente 2025 - Dependências
+# Versão: 2.0.0 | Autor: SavioCodes - https://github.com/SavioCodes
+
+# ============================================================================
+# DEPENDÊNCIAS PRINCIPAIS (Python 3.8+)
+# ============================================================================
 
 # Tkinter já vem instalado com Python na maioria das distribuições
-# Caso não tenha tkinter instalado, instale usando:
-# sudo apt-get install python3-tk  (Ubuntu/Debian)
-# brew install python-tk          (macOS com Homebrew)
+# Caso não tenha tkinter instalado:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# CentOS/RHEL:   sudo yum install tkinter
+# macOS:         brew install python-tk
+# Windows:       Já incluído na instalação padrão do Python
 
-# Dependências opcionais para funcionalidades extras:
+# ============================================================================
+# DEPENDÊNCIAS OPCIONAIS PARA RECURSOS AVANÇADOS
+# ============================================================================
 
-# Para interface mais avançada (opcional)
-# customtkinter>=5.0.0
+# Para interface gráfica mais moderna (opcional)
+# customtkinter>=5.2.0
 
 # Para logs coloridos no terminal (opcional)
-# colorama>=0.4.4
+# colorama>=0.4.6
 
-# Para análise de metadados de arquivos (opcional)
-# exifread>=2.3.2
+# Para análise avançada de metadados de arquivos (opcional)
+# exifread>=3.0.0
+# pillow>=10.0.0
 
-# Para compressão/descompressão (opcional)
-# py7zr>=0.20.0
+# Para compressão/descompressão avançada (opcional)
+# py7zr>=0.21.0
+
+# Para detecção de tipos MIME mais precisa (opcional)
+# python-magic>=0.4.27
+
+# Para processamento assíncrono avançado (opcional)
+# aiofiles>=23.0.0
 
 # Para interface web (desenvolvimento futuro)
-# flask>=2.0.0
-# flask-cors>=3.0.0
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+# jinja2>=3.1.0
 
-# Todas as outras dependências são da biblioteca padrão do Python:
-# - os
-# - shutil  
-# - datetime
-# - pathlib
-# - logging
-# - typing
-# - tkinter
-# - threading
-# - json
+# Para análise de performance (desenvolvimento)
+# memory-profiler>=0.61.0
+# psutil>=5.9.0
 
-# Para instalar dependências opcionais, descomente as linhas acima
+# Para testes (desenvolvimento)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# pytest-asyncio>=0.21.0
+
+# Para análise de código (desenvolvimento)
+# flake8>=6.1.0
+# mypy>=1.7.0
+# black>=23.11.0
+
+# ============================================================================
+# BIBLIOTECAS PADRÃO DO PYTHON (JÁ INCLUÍDAS)
+# ============================================================================
+# Estas bibliotecas fazem parte da instalação padrão do Python:
+# - os                 # Operações do sistema operacional
+# - shutil             # Operações de arquivos de alto nível
+# - datetime           # Manipulação de datas e horários
+# - pathlib            # Manipulação de caminhos de arquivo
+# - logging            # Sistema de logging
+# - typing             # Anotações de tipo
+# - tkinter            # Interface gráfica
+# - threading          # Programação com threads
+# - json               # Manipulação de JSON
+# - hashlib            # Funções de hash criptográfico
+# - mimetypes          # Mapeamento de tipos MIME
+# - dataclasses        # Classes de dados
+# - enum               # Enumerações
+# - asyncio            # Programação assíncrona
+# - concurrent.futures # Execução paralela
+# - collections        # Tipos de dados especializados
+# - argparse           # Parser de argumentos de linha de comando
+
+# ============================================================================
+# INSTALAÇÃO
+# ============================================================================
+# Para instalar apenas as dependências básicas (nenhuma adicional necessária):
+# pip install -r requirements.txt
+
+# Para instalar com dependências opcionais, descomente as linhas desejadas acima
 # e execute: pip install -r requirements.txt
+
+# Para ambiente de desenvolvimento completo:
+# pip install -r requirements-dev.txt
+
+# ============================================================================
+# COMPATIBILIDADE
+# ============================================================================
+# Python: 3.8+
+# Sistemas: Windows 10+, Ubuntu 18.04+, macOS 10.14+
+# Arquiteturas: x86_64, ARM64 (Apple Silicon)
+
+# ============================================================================
+# NOTAS DE VERSÃO 2025
+# ============================================================================
+# - Removidas dependências desnecessárias para melhor performance
+# - Adicionado suporte para Python 3.12+
+# - Otimizado para sistemas modernos
+# - Compatibilidade com Apple Silicon (M1/M2/M3)
+# - Suporte aprimorado para Windows 11
