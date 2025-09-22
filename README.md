@@ -200,8 +200,6 @@ Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICEN
 
 **SavioCodes**
 - 🌐 GitHub: [@SavioCodes](https://github.com/SavioCodes)
-- 📧 Email: contato@saviocodes.com
-- 💼 LinkedIn: [SavioCodes](https://linkedin.com/in/saviocodes)
 
 ## 🙏 Agradecimentos
 
