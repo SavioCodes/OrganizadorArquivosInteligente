@@ -1,0 +1,39 @@
+# Organizador de Arquivos Inteligente - Dependências
+# Autor: SavioCodes - https://github.com/SavioCodes
+
+# Tkinter já vem instalado com Python na maioria das distribuições
+# Caso não tenha tkinter instalado, instale usando:
+# sudo apt-get install python3-tk  (Ubuntu/Debian)
+# brew install python-tk          (macOS com Homebrew)
+
+# Dependências opcionais para funcionalidades extras:
+
+# Para interface mais avançada (opcional)
+# customtkinter>=5.0.0
+
+# Para logs coloridos no terminal (opcional)
+# colorama>=0.4.4
+
+# Para análise de metadados de arquivos (opcional)
+# exifread>=2.3.2
+
+# Para compressão/descompressão (opcional)
+# py7zr>=0.20.0
+
+# Para interface web (desenvolvimento futuro)
+# flask>=2.0.0
+# flask-cors>=3.0.0
+
+# Todas as outras dependências são da biblioteca padrão do Python:
+# - os
+# - shutil  
+# - datetime
+# - pathlib
+# - logging
+# - typing
+# - tkinter
+# - threading
+# - json
+
+# Para instalar dependências opcionais, descomente as linhas acima
+# e execute: pip install -r requirements.txt
