@@ -315,9 +315,6 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 ### 👤 Autor
 **SavioCodes** - Desenvolvedor Full Stack & Python Specialist
 - 🌐 **GitHub**: [@SavioCodes](https://github.com/SavioCodes)
-- 📧 **Email**: contato@saviocodes.com
-- 💼 **LinkedIn**: [SavioCodes](https://linkedin.com/in/saviocodes)
-- 🐦 **Twitter**: [@SavioCodes](https://twitter.com/saviocodes)
 
 ### 🙏 Agradecimentos Especiais
 - 🐍 **Comunidade Python** pela excelente documentação e bibliotecas
